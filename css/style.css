@@ -133,6 +133,7 @@ h2{
 
 .middle__text {
     font-size: 14px;
+    margin-top: 15px;
 }
 
 .cat__btn {
@@ -538,12 +539,13 @@ p.news__text1 {
 
 }
 
-.footer__wrapper1{
+.footer__wrapper1 {
     width: 1354px;
     margin: 0 auto;
     padding-top: 36px;
     padding-bottom: 18px;
 }
+
 .footer__h {
     font-size: 18px;
     line-height: 21px;
@@ -567,16 +569,128 @@ p.news__text1 {
 
 .footer__top {
     display: flex;
-    column-gap: 95px;
+
 }
 
-.footer__item {
-    width: 276px;
-}
 
 .bottom__cred__text {
+    margin-top: 20px;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
     color: #737E9B;
 }
+
+.mainrow
+{
+    width: 1354px;
+    /*height: 180px;*/
+    margin: 0 auto;
+    /*background: blanchedalmond;*/
+    display: flex;
+}
+
+.bottom_row {
+    background: midnightblue;
+    height: 50px;
+}
+
+.leftwrapper {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.left_item {
+    width: 270px;
+
+}
+
+.rightwrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.toprightwrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+
+}
+
+.right_top_item {
+    width: 160px;
+    background: aquamarine;
+}
+
+.bottom_right_item {
+    margin-left: 50px;
+    position: relative;
+}
+
+.footer__md {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.footer__lg {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #858CAB;
+}
+
+.wht, .wht:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.subscr input {
+    max-width: 470px;
+    min-width: 350px;
+    height: 40px;
+    padding-left: 10px;
+    background: #0C1A2A;
+    outline: none;
+    border: 1px solid #203246;
+    box-sizing: border-box;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.subscr input::placeholder {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ADBDD1;
+}
+.subscr button {
+    background: #005BB9;
+    border-radius: 0px 6px 6px 0px;
+    height: 41px;
+    width: 177px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-left: -5px;
+}
+
+.social__media {
+    position: absolute;
+    margin-top: 20px;
+    right: 0;
+}
+
+.social__media img {
+    margin-left: 50px;
+}
+
+.work__time {
+    width: 258px;
+}
+.header__address {
+    width: 180px;
+}
+
