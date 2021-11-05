@@ -368,13 +368,14 @@ h2{
     display: flex;
     width: 1354px;
     margin: 0 auto;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     justify-content: space-between;
 }
 
 .box__item {
     width: 316px;
     height: 418px;
+    margin-bottom: 40px;
 }
 
 .item_img {
@@ -399,6 +400,7 @@ h2{
     line-height: 25px;
     color: #0A1A2C;
 }
+
 
 .item__price__text {
     /*margin-top: 45px;*/
@@ -448,4 +450,133 @@ h2{
     color: #FFFFFF;
     background: #FFB800;
     border-radius: 2px
+}
+
+.item__line {
+    background: #E1E5F8;
+    width: 1354px;
+    height: 1px;
+    margin: 0 auto;
+}
+
+.show__more {
+    background: #FFFFFF;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 19px;
+    color: #005BB9;
+    padding: 15px 35px;
+    width: 187px;
+    height: 49px;
+}
+
+a.nodecor {
+    text-decoration: none;
+}
+
+.bottom__line {
+    width: 100%;
+    /*height: 9px;*/
+    /*background: #F5F5F5;*/
+    border-top: 9px solid #f5f5f5;
+    margin-top: 14px;
+    position: relative;
+    min-height: 350px;
+
+}
+
+.news__text {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 80px;
+}
+
+.news__wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 1354px;
+    margin-top: -8px;
+    left: 220px;
+}
+
+.news__item {
+    width: 284px;
+}
+
+.news__label {
+    background: #0C1A2A;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 1px 20px;
+    width: fit-content;
+    margin-bottom: 15px;
+}
+
+.news__pimpa {
+    content: " ";
+    background-image: url("../images/pimpa.png");
+    background-repeat: no-repeat;
+    margin-left: 48px;
+}
+
+p.news__text1 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.footer__wrapper {
+    background: #0C1A2A;
+    width: 100%
+
+}
+
+.footer__wrapper1{
+    width: 1354px;
+    margin: 0 auto;
+    padding-top: 36px;
+    padding-bottom: 18px;
+}
+.footer__h {
+    font-size: 18px;
+    line-height: 21px;
+    color: #868DAC;
+    margin-bottom: 14px;
+}
+
+.footer__link {
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 14px;
+    font-weight: 500;
+}
+.footer__link:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer__top {
+    display: flex;
+    column-gap: 95px;
+}
+
+.footer__item {
+    width: 276px;
+}
+
+.bottom__cred__text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #737E9B;
 }
