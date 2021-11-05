@@ -36,7 +36,9 @@ body {
 .dropdown__menu {
     margin-left: 50px;
 }
-
+.dropdown__menu__mobile {
+    display: none;
+}
 .top__right__menu {
     margin-left: auto;
 }
@@ -49,7 +51,7 @@ body {
     display: flex;
     justify-content: center;
     height: 196px;
-    /*box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);*/
+
 }
 .header__wrapper1 {
     height: 196px;
@@ -106,7 +108,7 @@ h2{
 
 }
 
-.whatsapp p {
+.whatsapp span{
     font-face: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -343,6 +345,7 @@ h2{
     align-items: center;
     color: #FFFFFF;
     border: none;
+    margin-bottom: 24px;
 }
 
 .mid__button {
@@ -694,3 +697,14 @@ p.news__text1 {
     width: 180px;
 }
 
+.mobile__cont__wrap {
+    display: flex;
+    column-gap: 70px;
+}
+.city__top__text {
+    font-size: 14px;
+}
+
+.srch__mob {
+    display: none;
+}

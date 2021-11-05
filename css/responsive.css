@@ -1,0 +1,162 @@
+@media screen and (max-device-width: 375px){
+    .topmenu {
+        max-width: 1920px;
+        height: 34px;
+        left: 0px;
+        top: 0px;
+        background: #0F2438;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dropdown__menu {
+        display: none;
+    }
+    .dropdown__menu__mobile {
+        display: block;
+    }
+
+    .top__right__menu {
+        display: none;
+    }
+
+    .placeholder1
+    {
+        display: none;
+    }
+
+    .city__top
+    {
+        margin-left: 15px;
+    }
+
+    .work__time {
+        display: none;
+    }
+
+    .header__address {
+        display: none;
+    }
+    .header__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: fit-content;
+    }
+    .whatsapp {
+        width: 150px;
+        height: 20px;
+        padding: 0;
+        margin-top: auto auto;
+
+    }
+    .whatsapp span{
+        font-face: Rubik;
+        font-weight: normal;
+        font-size: 9px;
+        line-height: 8px;
+        color: #000000;
+
+    }
+    .phone {
+        font-size: 12px;
+        line-height: 10px;
+        text-align: right;
+    }
+    .contact__form {
+        font-size: 10px;
+        line-height: 9px;
+        text-align: right;
+        margin-top: -5px;
+    }
+
+    .header__right__wrapper {
+        display: none;
+    }
+
+    .avt {
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+    .small__text {
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    .mobile__cont__wrap{
+        display: flex;
+        flex-direction: column-reverse;
+         justify-content: right;
+        margin-left: 10px;
+    }
+    .main__logo img {
+        width: 36px;
+        height: 40px;
+    }
+
+    .whatsapp .leftimg {
+        margin: 5px;
+    }
+
+    .cat__btn__txt {
+        display: none;
+    }
+
+    .cat__btn {
+        width: 34px;
+        height: 34px;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 20px;
+    }
+
+    .srch input {
+        max-width: 240px;
+        min-width: 230px;
+        height: 34px;
+        /*padding-left: 10px;*/
+        background: #F4F5FA;
+        border-radius: 6px 0px 0px 6px;
+        outline: none;
+        border: none;
+        position: relative;
+        margin-top: 15px;
+    }
+    .srch input[type="text"] {
+        font-size: 11px;
+        line-height: 12px;
+
+    }
+    .srch input::placeholder {
+        font-weight: normal;
+        font-size: 9px;
+        color: #C2C5DA;
+    }
+    .srch button {
+        background: #005BB9;
+        border-radius: 0px 6px 6px 0px;
+        height: 34px;
+        width: 34px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        margin-left: -5px;
+        margin-top: 15px;
+        position: absolute;
+
+    }
+    .srch__txt {
+        display: none;
+    }
+    .city__top__text {
+        font-size: 12px;
+    }
+
+    .srch__mob {
+        display: block;
+        margin: auto auto;
+    }
+
+}
