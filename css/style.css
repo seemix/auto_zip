@@ -365,15 +365,17 @@ h2{
     line-height: 23px;
     color: #FFFFFF;
     margin-top: 50px;
-    /*width: fit-content;*/
+    height: fit-content;
+    border: 2px solid #005BB9;
+
 }
 
 .mid__button2 {
     margin-left: 20px;
-    border: 2px solid #005BB9;
     box-sizing: border-box;
     color: #005BB9;
     background: #FFFFFF;
+
 }
 
 .content__wrapper {
