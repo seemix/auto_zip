@@ -723,3 +723,18 @@ p.news__text1 {
 .slider__right__price {
     margin-left: 95px;
 }
+.item__buy__btn {
+    background: #005BB9;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 49px;
+}
+.item__buy__text {
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
