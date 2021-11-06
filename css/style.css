@@ -608,10 +608,8 @@ p.news__text1 {
     display: flex;
     justify-content: space-evenly;
 }
-
 .left_item {
     width: 270px;
-
 }
 
 .rightwrapper {
